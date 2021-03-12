@@ -7,7 +7,7 @@ function main(){
     const market = new Market([asda,budgens,costco]);
     let buyer = new Buyer(market);
     let product = "Apples";
-    let quantity = 30;
+    let quantity = 10;
     buyerFunctions(product, quantity, buyer);
     //observeMarket(market);
 };
